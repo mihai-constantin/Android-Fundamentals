@@ -11,4 +11,9 @@
     <string name="auto_backup">Auto backup</string>
     <string name="yes">YES</string>
     <string name="no">NO</string>
+    <string name="login">LOGIN</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
+    <string name="i_accept_t_c"><![CDATA[I accept T&C]]></string>
+    <string name="submit">SUBMIT</string>
 </resources>

@@ -15,16 +15,16 @@
         <activity
             android:name=".week2.Week2Activity"
             android:label="Week2">
+
+        </activity>
+        <activity
+            android:name=".week3.Week3Activity"
+            android:label="Week3">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity
-            android:name=".week3.Week3Activity"
-            android:label="Week3">
-
         </activity>
     </application>
 
