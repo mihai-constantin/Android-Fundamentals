@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Android_Fundamentals</string>
+    <string name="orange_textview">This is an orange TextView</string>
+    <string name="green_textview">This is a green TextView</string>
+    <string name="blue_textView">This is a blue TextView</string>
+    <string name="text_button">This is a button</string>
+    <string name="green_button">This is a green button</string>
+    <string name="this_is_a_edittext">This is a EditText</string>
+    <string name="this_is_a_new_edittext">This is a new EditText</string>
+    <string name="notify_me">Notify me :)</string>
+    <string name="auto_backup">Auto backup</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+</resources>
