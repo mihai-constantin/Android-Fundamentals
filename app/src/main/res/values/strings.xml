@@ -16,4 +16,7 @@
     <string name="email">Email</string>
     <string name="i_accept_t_c"><![CDATA[I accept T&C]]></string>
     <string name="submit">SUBMIT</string>
+    <string name="error_email_input">Fill the input with a valid email</string>
+    <string name="error_phone_valid">Fill the input with a valid phone</string>
+    <string name="error_is_accepted_input">Check should be accepted</string>
 </resources>

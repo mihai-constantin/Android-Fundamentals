@@ -17,6 +17,7 @@
         android:textStyle="bold" />
 
     <EditText
+        android:id="@+id/editText_email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/space_8"
@@ -24,6 +25,7 @@
         android:inputType="textEmailAddress" />
 
     <EditText
+        android:id="@+id/editText_phone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/space_8"
@@ -31,6 +33,7 @@
         android:inputType="phone" />
 
     <CheckBox
+        android:id="@+id/checkBox_accept"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/space_8"
@@ -41,7 +44,16 @@
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/space_8"
         android:background="@color/blue"
+        android:onClick="bntSubmitOnClick"
         android:text="@string/submit"
         android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textView_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/space_8"
+        android:padding="@dimen/space_8" />
 
 </LinearLayout>
