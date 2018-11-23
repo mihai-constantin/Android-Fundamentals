@@ -89,7 +89,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="text"
-            android:text="@string/this_is_a_edittext" />
+            android:text="@string/this_is_a_edittext" /> 
 
         <EditText
             android:layout_width="match_parent"
