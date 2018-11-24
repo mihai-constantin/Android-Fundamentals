@@ -9,17 +9,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
-
-        </activity>
+        <activity android:name=".MainActivity" />
         <activity
             android:name=".week2.Week2Activity"
-            android:label="Week2">
+            android:label="Week2" />
+        <activity
+            android:name=".week3.Week3Activity"
+            android:label="Week3" />
+        <activity
+            android:name=".week3.SpinnerActivity"
+            android:label="Spinner"></activity>
+        <activity
+            android:name=".week3.RelativeLayoutActivity"
+            android:label="Week3">
 
         </activity>
         <activity
-            android:name=".week3.Week3Activity"
-            android:label="Week3">
+            android:name=".week3.PuzzleActivity"
+            android:label="Puzzle">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

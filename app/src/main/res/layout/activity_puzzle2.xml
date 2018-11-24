@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".week3.PuzzleActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_64"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewDarkViolet"
+            android:layout_width="@dimen/space_0"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/dark_violet" />
+
+        <TextView
+            android:layout_width="@dimen/space_0"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:background="@color/hot_pink" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/space_0"
+            android:layout_height="@dimen/space_64"
+            android:layout_weight="1"
+            android:background="@color/orange" />
+
+        <RelativeLayout
+            android:layout_width="@dimen/space_0"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/textViewPaleGreen"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/pale_green" />
+
+            <TextView
+                android:layout_width="@dimen/space_32"
+                android:layout_height="@dimen/space_32"
+                android:layout_alignBottom="@id/textViewPaleGreen"
+                android:layout_centerInParent="true"
+                android:background="@color/blue" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_64"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/space_0"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="@color/lime" />
+
+        <TextView
+            android:layout_width="@dimen/space_0"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/medium_sea_green" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_64"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/space_0"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/pale_orange" />
+
+        <RelativeLayout
+            android:layout_width="@dimen/space_0"
+            android:layout_height="match_parent"
+            android:layout_weight="4">
+
+            <FrameLayout
+                android:id="@+id/frameLayout"
+                android:layout_width="@dimen/space_64"
+                android:layout_height="match_parent"
+                android:background="@color/dark_violet">
+
+                <TextView
+                    android:layout_width="@dimen/space_16"
+                    android:layout_height="@dimen/space_16"
+                    android:layout_gravity="center"
+                    android:background="@color/hot_pink" />
+
+            </FrameLayout>
+
+
+            <TextView
+                android:id="@+id/textViewHotPink"
+                android:layout_width="@dimen/space_64"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/frameLayout"
+                android:background="@color/hot_pink" />
+
+
+            <TextView
+                android:id="@+id/textViewPaleOrange"
+                android:layout_width="@dimen/space_120"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/textViewHotPink"
+                android:background="@color/pale_orange" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/textViewPaleOrange"
+                android:background="@color/pale_green" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
