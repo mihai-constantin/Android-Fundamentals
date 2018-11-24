@@ -116,10 +116,9 @@
                 android:layout_toRightOf="@id/frameLayout"
                 android:background="@color/hot_pink" />
 
-
             <TextView
                 android:id="@+id/textViewPaleOrange"
-                android:layout_width="@dimen/space_120"
+                android:layout_width="@dimen/space_110"
                 android:layout_height="match_parent"
                 android:layout_toRightOf="@id/textViewHotPink"
                 android:background="@color/pale_orange" />

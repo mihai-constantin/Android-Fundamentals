@@ -7,5 +7,5 @@
     <dimen name="space_32">32dp</dimen>
     <dimen name="space_64">64dp</dimen>
     <dimen name="space_128">128dp</dimen>
-    <dimen name="space_120">120dp</dimen>
+    <dimen name="space_110">110dp</dimen>
 </resources>
