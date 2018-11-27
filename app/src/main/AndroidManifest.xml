@@ -18,15 +18,22 @@
             android:label="Week3" />
         <activity
             android:name=".week3.SpinnerActivity"
-            android:label="Spinner"></activity>
+            android:label="Spinner" />
         <activity
             android:name=".week3.RelativeLayoutActivity"
-            android:label="Week3">
-
-        </activity>
+            android:label="Week3" />
         <activity
             android:name=".week3.PuzzleActivity"
-            android:label="Puzzle">
+            android:label="Puzzle"></activity>
+        <activity android:name=".week4.Spinner2Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".week4.Challenge1Activity"
+            android:label="ViewGroups Example">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
